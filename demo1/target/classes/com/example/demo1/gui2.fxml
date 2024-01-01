@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_calc.Controller_Matrix">
+   <children>
+      <GridPane fx:id="matrix2" gridLinesVisible="true" layoutX="389.0" layoutY="39.0" prefHeight="215.0" prefWidth="291.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="128.60001220703126" minHeight="10.0" prefHeight="63.8000244140625" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="102.39998779296874" minHeight="10.0" prefHeight="79.1999755859375" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="71.1999755859375" minHeight="2.1999877929687415" prefHeight="56.80003662109374" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField style="-fx-background-color: gray;" />
+            <TextField style="-fx-background-color: gray;" GridPane.columnIndex="1" />
+            <TextField style="-fx-background-color: gray;" GridPane.rowIndex="1" />
+            <TextField style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="matrix1" gridLinesVisible="true" layoutX="56.0" layoutY="39.0" prefHeight="215.0" prefWidth="291.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="128.60001220703126" minHeight="10.0" prefHeight="63.8000244140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="102.39998779296874" minHeight="10.0" prefHeight="79.1999755859375" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="71.1999755859375" minHeight="2.1999877929687415" prefHeight="56.80003662109374" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextField fx:id="m1_00" style="-fx-background-color: gray;" />
+            <TextField fx:id="m1_01" style="-fx-background-color: gray;" GridPane.columnIndex="1" />
+            <TextField fx:id="m1_10" style="-fx-background-color: gray;" GridPane.rowIndex="1" />
+            <TextField fx:id="m1_11" style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="btn_zarb" layoutX="564.0" layoutY="538.0" mnemonicParsing="false" text="zarbb" />
+      <Button fx:id="btn_eshtrak" layoutX="665.0" layoutY="538.0" mnemonicParsing="false" text="eshterak" />
+      <Button fx:id="btn_jam" layoutX="247.0" layoutY="538.0" mnemonicParsing="false" text="jam" />
+      <Button fx:id="btn_ejtema" layoutX="373.0" layoutY="538.0" mnemonicParsing="false" text="اجتماع" />
+      <GridPane gridLinesVisible="true" layoutX="254.0" layoutY="289.0" prefHeight="215.0" prefWidth="291.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="128.60001220703126" minHeight="10.0" prefHeight="63.8000244140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="102.39998779296874" minHeight="10.0" prefHeight="79.1999755859375" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="71.1999755859375" minHeight="2.1999877929687415" prefHeight="56.80003662109374" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextField style="-fx-background-color: green;" />
+            <TextField style="-fx-background-color: green;" GridPane.columnIndex="1" />
+            <TextField style="-fx-background-color: green;" GridPane.rowIndex="1" />
+            <TextField GridPane.columnIndex="2" />
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField GridPane.rowIndex="2" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="btn_sabt" layoutX="71.0" layoutY="384.0" mnemonicParsing="false" onAction="#action_read_matrix" text="ثبت" />
+   </children>
+</Pane>

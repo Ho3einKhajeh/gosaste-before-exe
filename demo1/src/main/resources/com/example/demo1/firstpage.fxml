@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #c5b8fa;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Controller_homePage">
+   <children>
+
+      <Label layoutX="180.0" layoutY="193.0" text="تعداد سطر و ستون خود را وارد کنید: " textFill="#2f7e0d">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_2" layoutX="192.0" layoutY="298.0" mnemonicParsing="false" onAction="#action_btns" prefHeight="77.0" prefWidth="101.0" style="-fx-background-color: #cdfee8;" text="2 در 2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_3" layoutX="358.0" layoutY="298.0" mnemonicParsing="false" onAction="#action_btns" prefHeight="77.0" prefWidth="101.0" style="-fx-background-color: #cdfee8;" text="3 در 3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_4" layoutX="525.0" layoutY="298.0" mnemonicParsing="false" onAction="#action_btns" prefHeight="77.0" prefWidth="101.0" style="-fx-background-color: #cdfee8;" text="4 در 4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
